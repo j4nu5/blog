@@ -9,6 +9,8 @@ pygmentsCodefences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentsOptions = "linenos=table"
 
+# External Integrations
+googleAnalytics = "UA-24193913-1"
 disqusShortname = "j4nu5"
 
 [params]
@@ -35,4 +37,4 @@ disqusShortname = "j4nu5"
 [[menu.main]]
     name = "Blog"
     weight = 1
-    url  = "/post/"
+    url  = "/posts/"

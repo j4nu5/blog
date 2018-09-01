@@ -4,6 +4,7 @@ date = 2015-01-05
 categories = ["Programming"]
 tags = ["programming", "competitive programming"]
 aliases = ["/facebook-hacker-cup-2015-qualification-round-solutions.html"]
+math = "true"
 +++
 
 Iterating over all possible subsets of a set is a problem that can arise not
@@ -23,20 +24,20 @@ iteration and complete power set construction).
 ## Recursive algorithm for power set generation
 
 Power set generation is a problem that yields naturally to a recursive
-algorithm. Consider a set say, \\(\lbrace 1, 2, 3, 4 \rbrace\\). If we had a
-function that can generate the power set, \\(\mathbb{S}\\), of
-\\(\lbrace 2, 3, 4 \rbrace\\) we can generate the power set of the original
-input set by appending 1 to each member of \\(\mathbb{S}\\) (call the result
-\\(\mathbb{T}\\)) and then taking the union of \\(\mathbb{S}\\) and
-\\(\mathbb{T}\\).
+algorithm. Consider a set say, $\lbrace 1, 2, 3, 4 \rbrace$. If we had a
+function that can generate the power set, $\mathbb{S}$, of
+$\lbrace 2, 3, 4 \rbrace$ we can generate the power set of the original
+input set by appending 1 to each member of $\mathbb{S}$ (call the result
+$\mathbb{T}$) and then taking the union of $\mathbb{S}$ and
+$\mathbb{T}$.
 
-As an example, let us try generating the powerset of \\(\lbrace 1, 2, 3 \rbrace\\).
-The power set of \\(\lbrace 2, 3 \rbrace, \mathbb{S},\\) is
-\\(\lbrace \phi, \lbrace 2 \rbrace , \lbrace 3 \rbrace , \lbrace 2, 3 \rbrace  \rbrace\\).
-Adding \\(1\\) to each member of \\(\mathbb{S}\\), gives us, \\(\mathbb{T}\\),
-\\(\lbrace \lbrace 1 \rbrace, \lbrace 1, 2 \rbrace, \lbrace 1, 3 \rbrace, \lbrace 1, 2, 3 \rbrace \rbrace\\).
-Union of \\(\mathbb{S}\\) and \\(\mathbb{T}\\) gives us the required answer:
-\\(\lbrace \phi, \lbrace 2 \rbrace , \lbrace 3 \rbrace , \lbrace 2, 3 \rbrace, \lbrace 1 \rbrace, \lbrace 1, 2 \rbrace, \lbrace 1, 3 \rbrace, \lbrace 1, 2, 3 \rbrace \rbrace\\).
+As an example, let us try generating the powerset of $\lbrace 1, 2, 3 \rbrace$.
+The power set of $\lbrace 2, 3 \rbrace, \mathbb{S},$ is
+$\lbrace \phi, \lbrace 2 \rbrace , \lbrace 3 \rbrace , \lbrace 2, 3 \rbrace  \rbrace$.
+Adding $1$ to each member of $\mathbb{S}$, gives us, $\mathbb{T}$,
+$\lbrace \lbrace 1 \rbrace, \lbrace 1, 2 \rbrace, \lbrace 1, 3 \rbrace, \lbrace 1, 2, 3 \rbrace \rbrace$.
+Union of $\mathbb{S}$ and $\mathbb{T}$ gives us the required answer:
+$\lbrace \phi, \lbrace 2 \rbrace , \lbrace 3 \rbrace , \lbrace 2, 3 \rbrace, \lbrace 1 \rbrace, \lbrace 1, 2 \rbrace, \lbrace 1, 3 \rbrace, \lbrace 1, 2, 3 \rbrace \rbrace$.
 
 Translating the above idea to code (C++11):
 
@@ -101,7 +102,7 @@ vector< vector<int> > powerset2(const vector<int> &arr) {
 We can use a bitmask of length = size of input set to denote a subset choice.
 For example, a selection of {1, 2} in {1, 2, 3, 4} can be denoted by 0011,
 where the LSB (least significant bit) denotes 0th index and MSB denotes the
-highest possible index (*arr.size() - 1*). \\(\phi\\) is denoted by 0000 and a
+highest possible index (*arr.size() - 1*). $\phi$ is denoted by 0000 and a
 selection of all integers is denoted by 1111.
 
 According to this idea, each set in the powerset can be represented by a bitmask.
@@ -131,8 +132,7 @@ void powerset3(const vector<int> &arr) {
 ```
 
 
-Iterating over power set, using banker's sequence
-=================================================
+## Iterating over power set, using banker's sequence
 
 Using [banker's sequence](http://applied-math.org/subset.pdf) we can generate
 subsets in a monotonically increasing order of cardinality. Depending on your
@@ -169,6 +169,3 @@ algorithms for power set generation. I hope I have provided a decent coverage
 of the most popular ones.
 
 As always, comments are welcome.
-
-<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
