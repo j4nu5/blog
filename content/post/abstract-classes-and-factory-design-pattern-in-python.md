@@ -5,7 +5,6 @@ lastmod = 2016-03-27
 categories = ["Development"]
 tags = ["python", "development"]
 aliases = ["/abstract-classes-and-factory-design-pattern-in-python.html"]
-draft = true
 +++
 
 [Abstract Classes](http://en.wikipedia.org/wiki/Class_(computer_programming)#Abstract_and_concrete)
