@@ -1,4 +1,10 @@
 baseURL = "https://www.j4nu5.com/"
 languageCode = "en-us"
 title = "The Janus List"
-theme = "hyde"
+theme = "coder"
+
+# Highlighting config
+pygmentsStyle = "b2"
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsOptions = "linenos=table"
