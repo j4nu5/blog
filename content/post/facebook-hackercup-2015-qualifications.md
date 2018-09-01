@@ -153,7 +153,7 @@ Laser Maze (55 points)
 Let us forget about the lasers for now. This restricted version of the problem
 can be solved using BFS. Adding lasers brings two complications:
 
-1. We need to check for _safe_ spaces. At any point in time, we cannot occupy
+1. We need to check for *safe* spaces. At any point in time, we cannot occupy
    a space which is being targeted by a laser.
 2. The board's state is not a function of just player position anymore. It is
    now dependent on laser turrets configuration as well. Fortunately for us,
