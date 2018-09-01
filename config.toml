@@ -5,6 +5,34 @@ theme = "coder"
 
 # Highlighting config
 pygmentsStyle = "b2"
-pygmentsCodeFences = true
+pygmentsCodefences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentsOptions = "linenos=table"
+
+disqusShortname = "j4nu5"
+
+[params]
+    author = "Kushagra Sinha"
+    description = "Kushagra Sinha's personal website"
+    keywords = "blog,developer,personal"
+    info = "Software Engineer"
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/j4nu5/"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter fa-2x"
+    weight = 3
+    url = "https://twitter.com/j4nu5/"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin fa-2x"
+    weight = 4
+    url = "https://www.linkedin.com/in/sinhakushagra/"
+
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url  = "/post/"
