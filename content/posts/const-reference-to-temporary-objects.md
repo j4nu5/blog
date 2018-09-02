@@ -131,35 +131,21 @@ references. This will not compile:
 
 ```cpp
 #include <iostream>
-#include <string>
 
-struct Container {
-    std::string s;
-
-    Container() {
-        s = "Init";
-        std::cout << "Constructed" << std::endl;
-    }
-
-    ~Container() {
-        s = "UNSAFE";
-        std::cout << "Destructed" << std::endl;
-    }
-
-    const std::string& GetS() const {
-        return s;
-    }
-};
+int GetInt() {
+    int x = 1;
+    return x;
+}
 
 int main() {
-    std::string& s = Container().GetS();
-    std::cout << s << std::endl;
+    int& x = GetInt();
+    std::cout << x << std::endl;
 
     return 0;
 }
 ```
 
-Check line 23. It is an ordinary reference and not a const reference.
+Check line 9. It is an ordinary reference and not a const reference.
 
 ## Further Reading
 
