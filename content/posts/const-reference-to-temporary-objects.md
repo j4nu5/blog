@@ -22,7 +22,7 @@ int main() {
 }
 ```
 
-In particular, pay attention to line 8. Is it guaranteed to be safe?
+In particular, pay attention to line #9. Is it guaranteed to be safe?
 
 In this case, the answer is yes. The C++ standard *guarantees* that binding a
 temporary to a const reference on the stack, extends the lifetime of the
