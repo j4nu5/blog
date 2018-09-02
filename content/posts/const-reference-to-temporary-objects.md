@@ -66,7 +66,7 @@ int main() {
 }
 ```
 
-What is the output? Is line 23 always safe? It create a temporary |Container()|
+What is the output? Is line 23 always safe? It creates a temporary |Container()|
 and then calls a member function on that temporary, which in turn returns a
 const reference to a member variable.
 
