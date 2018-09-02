@@ -3,7 +3,10 @@ title = "Implementing Service Oriented Architecture using Http is a horrible ide
 date = 2014-11-16
 categories = ["Programming", "Development"]
 tags = ["programming"]
-aliases = ["/implementing-service-oriented-architecture-using-http-is-a-horrible-idea.html"]
+aliases = [
+    "/implementing-service-oriented-architecture-using-http-is-a-horrible-idea.html",
+    "/implementing-service-oriented-architecture-soa-using-http-is-a-horrible-idea.html",
+]
 +++
 
 [Service Oriented Architecture](http://en.wikipedia.org/wiki/Service-oriented_architecture)
