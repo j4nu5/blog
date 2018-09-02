@@ -18,6 +18,7 @@ disqusShortname = "j4nu5"
     description = "Kushagra Sinha's personal website"
     keywords = "blog,developer,personal"
     info = "Software Engineer"
+    avatarurl = "images/avatar.jpg"
 [[params.social]]
     name = "Github"
     icon = "fab fa-github fa-2x"
