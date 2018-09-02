@@ -1,5 +1,4 @@
 +++ 
-draft = true
 date = 2018-09-02T18:24:40+02:00
 title = "Const References to Temporary Objects"
 tags = ["programming", "development"]
