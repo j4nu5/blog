@@ -35,3 +35,4 @@ echo -e "Updating source repo..."
 cd ..
 git add .
 git commit -m "$commit_subject" -m "$commit_body"
+git push origin master
