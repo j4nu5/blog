@@ -16,6 +16,8 @@ require_clean_working_tree () {
 ## main
 require_clean_working_tree
 revision=`git rev-parse HEAD`
+commit_subject="Rebuild site on `date`"
+commit_body="For revision ${revision}"
 
 # Build the site.
 hugo
@@ -23,12 +25,12 @@ hugo
 # Add published site changes to git.
 cd public
 git add .
-msg="Rebuilt site on `date`\n\nFor revision ${revision}"
-git commit -m "$msg"
+git commit -m "$commit_subject" -m "$commit_body"
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 git push origin master
 
 # Come back to 'source'.
 cd ..
-git commit -am "$msg"
+git add .
+git commit -m "$commit_subject" -m "$commit_body"
