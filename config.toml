@@ -3,8 +3,10 @@ languageCode = "en-us"
 title = "The Janus List"
 theme = "hugo-coder"
 
+paginate = 20
+
 # Highlighting config
-pygmentsStyle = "b2"
+pygmentsStyle = "bw"
 pygmentsCodefences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentsOptions = "linenos=table"
