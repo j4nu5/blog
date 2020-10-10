@@ -18,6 +18,7 @@ disqusShortname = "j4nu5"
 [params]
     author = "Kushagra Sinha"
     description = "Kushagra Sinha's personal website"
+    colorscheme = "auto"
     keywords = "blog,developer,personal"
     info = "Software Engineer"
     avatarurl = "images/avatar.jpg"
