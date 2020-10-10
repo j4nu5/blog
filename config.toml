@@ -1,7 +1,7 @@
 baseURL = "https://www.j4nu5.com/"
 languageCode = "en-us"
 title = "The Janus List"
-theme = "coder"
+theme = "hugo-coder"
 
 # Highlighting config
 pygmentsStyle = "b2"
