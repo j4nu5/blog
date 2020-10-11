@@ -9,11 +9,6 @@ externalLink = ""
 series = []
 +++
 
-A friend recently told me that he is focusing on becoming a _reliable_
-engineer, and wanted my opinion on this topic. _Reliability_ has probably been
-my strongest attribute as an employee so I felt somewhat qualified to write
-about it.
-
 # What is _Reliability_?
 One of the lenses through which I view my job is as a _service_ that I provide
 to my _immediate_ manager. This is different from any additional obligations
