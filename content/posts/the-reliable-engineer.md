@@ -116,8 +116,12 @@ you should see yourself talking about de-risking projects and resolving external
 dependencies.
 
 #### Responsiveness
-Your manager will need some information from you now and then. The sooner you
+People will need some information from you now and then. The sooner you
 provide an accurate answer, the more reliable you'll become.
+
+Note however that this does not involve sacrificing your work-life balance. If
+you get a message on a Friday evening, it is expected that you'll respond on
+Monday.
 
 #### Ability to say "I don't know"
 I once had the misfortune of leading an engineer in my team who never said "I
