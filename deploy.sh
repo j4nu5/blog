@@ -28,11 +28,11 @@ git add .
 git commit -m "$commit_subject" -m "$commit_body"
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
-git push origin master
+git push origin main
 
 # Come back to 'source'.
 echo -e "Updating source repo..."
 cd ..
 git add .
 git commit -m "$commit_subject" -m "$commit_body"
-git push origin master
+git push origin main
