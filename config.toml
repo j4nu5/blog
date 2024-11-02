@@ -3,8 +3,6 @@ languageCode = "en-us"
 title = "The Janus List"
 theme = "hugo-coder"
 
-paginate = 20
-
 # Highlighting config
 pygmentsStyle = "bw"
 pygmentsCodefences = true
@@ -46,3 +44,8 @@ disqusShortname = "j4nu5"
     name = "About"
     weight = 2
     url  = "/about/"
+
+[pagination]
+  disableAliases = false
+  pagerSize = 20
+  path = 'page'
