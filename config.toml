@@ -9,10 +9,6 @@ pygmentsCodefences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentsOptions = "linenos=table"
 
-# External Integrations
-googleAnalytics = "UA-24193913-1"
-disqusShortname = "j4nu5"
-
 [params]
     author = "Kushagra Sinha"
     description = "Kushagra Sinha's personal website"
@@ -49,3 +45,7 @@ disqusShortname = "j4nu5"
   disableAliases = false
   pagerSize = 20
   path = 'page'
+
+[services]
+  [services.disqus]
+    shortname = 'the-janus-list'
