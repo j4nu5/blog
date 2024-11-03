@@ -2,9 +2,6 @@
 	path = public
 	url = git@github.com:j4nu5/j4nu5.github.io.git
 	branch = main
-[submodule "themes/hugo-coder"]
-	path = themes/hugo-coder
-	url = https://github.com/luizdepra/hugo-coder.git
 [submodule "themes/archie"]
 	path = themes/archie
 	url = https://github.com/athul/archie.git
