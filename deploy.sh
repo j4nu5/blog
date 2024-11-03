@@ -5,7 +5,7 @@ require_clean_working_tree () {
     # Update the index
     git update-index -q --refresh
 
-    if [[ -n $(git status --porcelain) ]]
+    if [[ -n $(git status --porcelain --ignore-submodules) ]]
     then
         echo -e >&2 "\033[0;31mWorking tree is not clean. Quitting...\033[0m"
         exit 1
