@@ -2,14 +2,15 @@
 date = 2020-10-10T19:03:13+02:00
 title = "The Reliable Engineer"
 description = ""
-slug = "" 
+slug = ""
 tags = ["development"]
 categories = ["Development"]
 externalLink = ""
 series = []
+toc = true
 +++
 
-# What is _Reliability_?
+## What is _Reliability_?
 One of the lenses through which I view my job is as a _service_ that I provide
 to my _immediate_ manager. This is different from any additional obligations
 that I may have to my employer.\
@@ -17,7 +18,7 @@ From this lens, I want to provide such a quality of service where my manager is
 able to assign a task to me, and ***forget about it***.\
 The extent to which I can meet this bar, is _reliability_.
 
-# The Magical Number Seven, Plus or Minus Two
+## The Magical Number Seven, Plus or Minus Two
 Humans have a limited working memory capacity. In one of the most highly cited
 [papers](https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two)
 in psychology, cognitive psychologist George A. Miller of Harvard University's
@@ -37,7 +38,7 @@ and own meaningful chunks, leaving you free to think about the bigger picture.\
 The effectiveness of a _lieutenant_ in providing this _service_ determines their
 reliability.
 
-# O Captain! My Captain!
+## O Captain! My Captain!
 How does one become a reliable lieutenant?\
 Firstly, let's cover what _not_ to do. The most common mistake that people make
 is _demand_ to be deemed reliable - most commonly, based on their tenure at the
@@ -79,12 +80,12 @@ progress onto bigger tasks. Start by owning implementation of functions and
 classes. Move up to owning modules. Over time you will start owning projects
 and product areas.
 
-# The Road to Success
+## The Road to Success
 Now that we have done the strategic foundational work, how do we plan for the
 day to day practical work? While this list is far from exhaustive, here are the
 most important tools and attributes that I have found:
 
-#### Regular Status Updates
+### Regular Status Updates
 The only way your manager is going to feel comfortable about "forgetting" your
 project is if they feel they know the status of the project at all times. One of
 the easiest way of doing this is to set up regular 1:1 meetings with your
@@ -115,7 +116,7 @@ you would be talking about how you wrote a particular piece of code. Over time,
 you should see yourself talking about de-risking projects and resolving external
 dependencies.
 
-#### Responsiveness
+### Responsiveness
 People will need some information from you now and then. The sooner you
 provide an accurate answer, the more reliable you'll become.
 
@@ -123,7 +124,7 @@ Note however that this does not involve sacrificing your work-life balance. If
 you get a message on a Friday evening, it is expected that you'll respond on
 Monday.
 
-#### Ability to say "I don't know"
+### Ability to say "I don't know"
 I once had the misfortune of leading an engineer in my team who never said "I
 don't know". He would rather give me a quick, responsive, but wholly inaccurate
 answer. Needless to say, it did nothing to increase his reliability.\
@@ -133,7 +134,7 @@ information you provide, and will know about the accuracy of this information
 soon enough. Providing inaccurate, unreliable information is the most effective
 way of reducing your reliability.
 
-#### Self Direction
+### Self Direction
 This ties a bit into ownership. One of the hallmarks of a great engineer is
 their ability to self direct.\
 You should be willing to do everything to keep your task / project on track. It
@@ -141,7 +142,7 @@ may involve talking to third parties or external teams or resolving some
 internal conflict. While it's OK to ask your manager for help when you're stuck
 but they should be able to see that you tried your best before approaching them.
 
-# Profit
+## Profit
 I hope this was helpful. Please feel free to comment with your take on the
 topic.
 
