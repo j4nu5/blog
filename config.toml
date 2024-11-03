@@ -5,7 +5,7 @@ theme = "archie"
 copyright = "© Kushagra Sinha"
 
 # Highlighting config
-pygmentsStyle = "bw"
+pygmentsStyle = "monokai"
 pygmentsCodefences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentsOptions = "linenos=table"
@@ -45,7 +45,7 @@ pygmentsOptions = "linenos=table"
 
 [pagination]
   disableAliases = false
-  pagerSize = 20
+  pagerSize = 3
   path = 'page'
 
 [services]
