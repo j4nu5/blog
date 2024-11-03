@@ -12,6 +12,7 @@ copyright = "© Kushagra Sinha"
     info = "Software Engineer"
     avatarurl = "/images/avatar.jpg"
     favicon = "/images/favicon-32x32.png"
+    useCDN = true
 
 [[params.social]]
     name = "Github"
