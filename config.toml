@@ -12,8 +12,10 @@ pygmentsOptions = "linenos=table"
 
 [params]
     author = "Kushagra Sinha"
-    description = "Kushagra Sinha's personal website"
-    colorscheme = "auto"
+    subtitle = "I disclaim thee, o' liability"
+    mode = "toggle" # Color mode - light or dark.
+    mathjax = true  # Enable MathJax support.
+	katex = true    # Enable KaTeX support.
     keywords = "blog,developer,personal"
     info = "Software Engineer"
     avatarurl = "images/avatar.jpg"
