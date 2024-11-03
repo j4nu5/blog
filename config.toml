@@ -37,11 +37,11 @@ pygmentsOptions = "linenos=table"
     url = "https://www.linkedin.com/in/sinhakushagra/"
 
 [[menu.main]]
-    name = "Blog"
+    name = "articles"
     weight = 1
     url  = "/posts/"
 [[menu.main]]
-    name = "About"
+    name = "about"
     weight = 2
     url  = "/about/"
 
