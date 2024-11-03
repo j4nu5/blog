@@ -48,8 +48,6 @@ copyright = "© Kushagra Sinha"
 [services]
   [services.disqus]
     shortname = "the-janus-list"
-  [services.googleAnalytics]
-    ID = "G-DP580Y7HVT"
 
 [markup]
   [markup.highlight]
