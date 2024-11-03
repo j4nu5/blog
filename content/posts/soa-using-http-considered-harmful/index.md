@@ -39,7 +39,7 @@ server is responsible for some preprocessing (authentication etc.) and
 post-processing (aggregation etc.) tasks. The heavy lifting is done by our
 backend service.
 
-{{< figure src="posts/soa-using-http-considered-harmful/soa.png" >}}
+![SOA Illustration](soa.png)
 
 Let us say Client1 came first and requested for Data1. The web frontend
 performs some preprocessing on the request and forwards it to our backend
