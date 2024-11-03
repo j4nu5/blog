@@ -43,24 +43,26 @@ copyright = "© Kushagra Sinha"
 [pagination]
   disableAliases = false
   pagerSize = 3
-  path = 'page'
+  path = "page"
 
 [services]
   [services.disqus]
-    shortname = 'the-janus-list'
+    shortname = "the-janus-list"
+  [services.googleAnalytics]
+    ID = "G-DP580Y7HVT"
 
 [markup]
   [markup.highlight]
     anchorLineNos = false
     codeFences = true
     guessSyntax = false
-    hl_Lines = ''
+    hl_Lines = ""
     hl_inline = false
-    lineAnchors = ''
+    lineAnchors = ""
     lineNoStart = 1
     lineNos = true
     lineNumbersInTable = false
     noClasses = true
     noHl = false
-    style = 'gruvbox'
+    style = "gruvbox"
     tabWidth = 4
