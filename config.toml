@@ -13,6 +13,7 @@ copyright = "© Kushagra Sinha"
     keywords = "blog,developer,personal"
     info = "Software Engineer"
     avatarurl = "images/avatar.jpg"
+    favicon = "images/favicon-32x32.png"
 
 [[params.social]]
     name = "Github"
