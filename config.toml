@@ -1,7 +1,8 @@
 baseURL = "https://sinhak.dev/"
 languageCode = "en-us"
 title = "The Janus List"
-theme = "hugo-coder"
+theme = "archie"
+copyright = "© Kushagra Sinha"
 
 # Highlighting config
 pygmentsStyle = "bw"
@@ -16,19 +17,20 @@ pygmentsOptions = "linenos=table"
     keywords = "blog,developer,personal"
     info = "Software Engineer"
     avatarurl = "images/avatar.jpg"
+
 [[params.social]]
     name = "Github"
-    icon = "fa-brands fa-github fa-2x"
+    icon = "github"
     weight = 1
     url = "https://github.com/j4nu5/"
 [[params.social]]
     name = "Twitter"
-    icon = "fa-brands fa-twitter fa-2x"
+    icon = "twitter"
     weight = 2
     url = "https://twitter.com/j4nu5/"
 [[params.social]]
     name = "LinkedIn"
-    icon = "fa-brands fa-linkedin fa-2x"
+    icon = "linkedin"
     weight = 3
     url = "https://www.linkedin.com/in/sinhakushagra/"
 
