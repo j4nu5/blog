@@ -4,12 +4,6 @@ title = "The Janus List"
 theme = "archie"
 copyright = "© Kushagra Sinha"
 
-# Highlighting config
-pygmentsStyle = "monokai"
-pygmentsCodefences = true
-pygmentsCodefencesGuessSyntax = true
-pygmentsOptions = "linenos=table"
-
 [params]
     author = "Kushagra Sinha"
     subtitle = "I disclaim thee, o' liability"
@@ -53,3 +47,19 @@ pygmentsOptions = "linenos=table"
 [services]
   [services.disqus]
     shortname = 'the-janus-list'
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    hl_inline = false
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = true
+    noHl = false
+    style = 'gruvbox'
+    tabWidth = 4
