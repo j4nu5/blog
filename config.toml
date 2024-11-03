@@ -18,18 +18,18 @@ pygmentsOptions = "linenos=table"
     avatarurl = "images/avatar.jpg"
 [[params.social]]
     name = "Github"
-    icon = "fa fa-github"
+    icon = "fa-brands fa-github fa-2x"
     weight = 1
     url = "https://github.com/j4nu5/"
 [[params.social]]
     name = "Twitter"
-    icon = "fa fa-twitter"
-    weight = 3
+    icon = "fa-brands fa-twitter fa-2x"
+    weight = 2
     url = "https://twitter.com/j4nu5/"
 [[params.social]]
     name = "LinkedIn"
-    icon = "fa fa-linkedin"
-    weight = 4
+    icon = "fa-brands fa-linkedin fa-2x"
+    weight = 3
     url = "https://www.linkedin.com/in/sinhakushagra/"
 
 [[menu.main]]
