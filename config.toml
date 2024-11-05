@@ -9,6 +9,7 @@ copyright = "© Kushagra Sinha"
     subtitle = "I disclaim thee, o' liability"
     mode = "toggle" # Color mode - light or dark.
     keywords = "blog,developer,personal"
+    description = "Kushagra Sinha's Personal Blog - The Janus List"
     info = "Software Engineer"
     avatarurl = "/images/avatar.jpg"
     favicon = "/images/favicon-32x32.png"
