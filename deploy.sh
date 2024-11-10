@@ -20,7 +20,7 @@ commit_subject="Rebuild site on `date`"
 commit_body="For revision ${revision}"
 
 # Build the site.
-hugo
+hugo --minify
 
 # Add published site changes to git.
 cd public
