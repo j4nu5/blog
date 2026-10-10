@@ -12,9 +12,9 @@ problem solving that can be automated. Here is a brief summary of my
 automation steps:
 
 1.  Use a template. Here is mine. Save it as *template.cpp*:
-    {{< gist j4nu5 d2b23dcdc20c9de48715 "usaco_template.cpp" >}}
+    <script src="https://gist.github.com/j4nu5/d2b23dcdc20c9de48715.js"></script>
 2.  Save this script as *solve.sh* in the same directory as above:
-    {{< gist j4nu5 55005626c282e056b753 "usaco_solve.sh" >}}
+    <script src="https://gist.github.com/j4nu5/55005626c282e056b753.js"></script>
 3.  All done!
     Whenever you're ready to begin coding a solution, simply execute
     `./solve.sh PROBLEM_NAME`
