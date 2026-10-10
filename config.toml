@@ -1,5 +1,5 @@
 baseURL = "https://sinhak.dev/"
-languageCode = "en-us"
+locale = "en-us"
 title = "The Janus List"
 theme = "archie"
 copyright = "© Kushagra Sinha"
